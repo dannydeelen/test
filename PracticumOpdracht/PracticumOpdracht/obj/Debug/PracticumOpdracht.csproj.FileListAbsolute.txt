@@ -1,0 +1,12 @@
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\PracticumOpdracht.dll.config
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\PracticumOpdracht.dll
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\PracticumOpdracht.pdb
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.csprojResolveAssemblyReference.cache
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.dll
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\PracticumOpdracht.dll.config
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\PracticumOpdracht.dll
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\PracticumOpdracht.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.dll
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\MySql.Data.dll

@@ -1,0 +1,17 @@
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\TestConsole.exe.config
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\TestConsole.exe
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\TestConsole.pdb
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\obj\Debug\TestConsole.exe
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\obj\Debug\TestConsole.pdb
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\PracticumOpdracht.dll
+c:\users\dyon\documents\visual studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\PracticumOpdracht.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\PracticumOpdracht.dll
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\PracticumOpdracht.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\obj\Debug\TestConsole.exe
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\obj\Debug\TestConsole.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\TestConsole.exe.config
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\TestConsole\bin\Debug\MySql.Data.dll
