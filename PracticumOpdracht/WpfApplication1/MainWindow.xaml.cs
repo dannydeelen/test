@@ -31,10 +31,15 @@ namespace WpfApplication1
         {
             String uname = Uname.Text;
             String pw = Pw.Text;
-            Console.WriteLine(client.Login(uname, pw));
-            Window1 w1 = new Window1();
-            w1.Show();
-            this.Close();
+            if (client.Login(uname, pw))
+            {   Window1 w1 = new Window1();
+                w1.Show();
+                this.Close();
+            }
+            else
+            {
+                throw new NotImplementedException();
+            }
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -42,7 +47,7 @@ namespace WpfApplication1
             String uname = Usname.Text;
             label.Content = "password: "+ client.Register(uname);
             Console.WriteLine(client.Register(uname));
-            client.Connect();
+            client.Insert(Usname.Text);
 
         }
     }

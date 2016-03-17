@@ -16,6 +16,6 @@ namespace PracticumOpdracht
         [OperationContract]
         String Register(String u);
         [OperationContract]
-        void Connect();
+        void Insert(String s);
     }
 }

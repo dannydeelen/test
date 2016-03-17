@@ -18,11 +18,11 @@
   <wsdl:message name="IMyService_Register_OutputMessage">
     <wsdl:part name="parameters" element="tns:RegisterResponse" />
   </wsdl:message>
-  <wsdl:message name="IMyService_Connect_InputMessage">
-    <wsdl:part name="parameters" element="tns:Connect" />
+  <wsdl:message name="IMyService_Insert_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insert" />
   </wsdl:message>
-  <wsdl:message name="IMyService_Connect_OutputMessage">
-    <wsdl:part name="parameters" element="tns:ConnectResponse" />
+  <wsdl:message name="IMyService_Insert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertResponse" />
   </wsdl:message>
   <wsdl:portType name="IMyService">
     <wsdl:operation name="Login">
@@ -33,9 +33,9 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IMyService/Register" message="tns:IMyService_Register_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IMyService/RegisterResponse" message="tns:IMyService_Register_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="Connect">
-      <wsdl:input wsaw:Action="http://tempuri.org/IMyService/Connect" message="tns:IMyService_Connect_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IMyService/ConnectResponse" message="tns:IMyService_Connect_OutputMessage" />
+    <wsdl:operation name="Insert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMyService/Insert" message="tns:IMyService_Insert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMyService/InsertResponse" message="tns:IMyService_Insert_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IMyService" type="tns:IMyService">
@@ -58,8 +58,8 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="Connect">
-      <soap:operation soapAction="http://tempuri.org/IMyService/Connect" style="document" />
+    <wsdl:operation name="Insert">
+      <soap:operation soapAction="http://tempuri.org/IMyService/Insert" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

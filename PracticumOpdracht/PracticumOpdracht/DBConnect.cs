@@ -24,10 +24,10 @@ namespace PracticumOpdracht
         //Initialize values
         private void Initialize()
         {
-            server = "127.0.0.1";
+            server = "localhost";
             database = "world";
             uid = "root";
-            password = "";
+            password = "root";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -80,9 +80,9 @@ namespace PracticumOpdracht
         }
 
         //Insert statement
-        public void Insert()
+        public void Insert(String s,String s1)
         {
-            string query = "INSERT INTO login (username,password) VALUES('username', 'password')";
+            string query = "INSERT INTO login (username,password) VALUES('"+s+ "', '"+s1+"')";
 
             //open connection
             if (this.OpenConnection() == true)
@@ -120,7 +120,26 @@ namespace PracticumOpdracht
                 this.CloseConnection();
             }
         }
-
+        public bool Login(String s, String s1)
+        {
+            string query = "SELECT count(*) from login where USername = '"+ s+ "' and password = '"+ s1+"'";
+            int exists = 0;
+            if (this.OpenConnection() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                exists = Convert.ToInt32(cmd.ExecuteScalar());
+                this.CloseConnection();
+            }
+            if (exists > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    
         //Delete statement
         public void Delete()
         {

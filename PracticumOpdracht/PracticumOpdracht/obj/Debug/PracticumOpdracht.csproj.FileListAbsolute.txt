@@ -10,3 +10,4 @@ C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\Practicum
 C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.dll
 C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.pdb
 C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\bin\Debug\MySql.Data.dll
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\PracticumOpdracht\PracticumOpdracht\obj\Debug\PracticumOpdracht.csprojResolveAssemblyReference.cache

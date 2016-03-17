@@ -27,11 +27,11 @@ namespace WpfApplication1.ServiceReference1 {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/Register", ReplyAction="http://tempuri.org/IMyService/RegisterResponse")]
         System.Threading.Tasks.Task<string> RegisterAsync(string u);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/Connect", ReplyAction="http://tempuri.org/IMyService/ConnectResponse")]
-        void Connect();
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/Insert", ReplyAction="http://tempuri.org/IMyService/InsertResponse")]
+        void Insert(string s);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/Connect", ReplyAction="http://tempuri.org/IMyService/ConnectResponse")]
-        System.Threading.Tasks.Task ConnectAsync();
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/Insert", ReplyAction="http://tempuri.org/IMyService/InsertResponse")]
+        System.Threading.Tasks.Task InsertAsync(string s);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -77,12 +77,12 @@ namespace WpfApplication1.ServiceReference1 {
             return base.Channel.RegisterAsync(u);
         }
         
-        public void Connect() {
-            base.Channel.Connect();
+        public void Insert(string s) {
+            base.Channel.Insert(s);
         }
         
-        public System.Threading.Tasks.Task ConnectAsync() {
-            return base.Channel.ConnectAsync();
+        public System.Threading.Tasks.Task InsertAsync(string s) {
+            return base.Channel.InsertAsync(s);
         }
     }
 }
